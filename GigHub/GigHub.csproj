@@ -177,9 +177,13 @@
     <Compile Include="Migrations\202001111937188_initialMigration.Designer.cs">
       <DependentUpon>202001111937188_initialMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202001111957041_AddedGigAndGenreClass.cs" />
-    <Compile Include="Migrations\202001111957041_AddedGigAndGenreClass.Designer.cs">
-      <DependentUpon>202001111957041_AddedGigAndGenreClass.cs</DependentUpon>
+    <Compile Include="Migrations\202001120023462_removeNullabilityFeature.cs" />
+    <Compile Include="Migrations\202001120023462_removeNullabilityFeature.Designer.cs">
+      <DependentUpon>202001120023462_removeNullabilityFeature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001120024150_populateGenre.cs" />
+    <Compile Include="Migrations\202001120024150_populateGenre.Designer.cs">
+      <DependentUpon>202001120024150_populateGenre.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -267,8 +271,11 @@
     <EmbeddedResource Include="Migrations\202001111937188_initialMigration.resx">
       <DependentUpon>202001111937188_initialMigration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001111957041_AddedGigAndGenreClass.resx">
-      <DependentUpon>202001111957041_AddedGigAndGenreClass.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202001120023462_removeNullabilityFeature.resx">
+      <DependentUpon>202001120023462_removeNullabilityFeature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001120024150_populateGenre.resx">
+      <DependentUpon>202001120024150_populateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

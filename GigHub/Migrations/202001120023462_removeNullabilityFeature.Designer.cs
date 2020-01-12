@@ -7,13 +7,13 @@ namespace GigHub.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class AddedGigAndGenreClass : IMigrationMetadata
+    public sealed partial class removeNullabilityFeature : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedGigAndGenreClass));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(removeNullabilityFeature));
         
         string IMigrationMetadata.Id
         {
-            get { return "202001111957041_AddedGigAndGenreClass"; }
+            get { return "202001120023462_removeNullabilityFeature"; }
         }
         
         string IMigrationMetadata.Source
